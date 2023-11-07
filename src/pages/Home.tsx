@@ -26,6 +26,14 @@ export default function Home() {
              <button className="btn btn-primary text-center">Conheça Agora</button>
             </div>
 
+            <div className="d-flex flex-column align-items-center my-5 mx-4">
+                <h1 className="text-center">Baixe o App Agora!</h1>
+                <div className="d-flex flex-row justify-content-center align-items-center">
+                <img className="w-25 mx-3 my-5" alt="" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Google_Play_2022_logo.svg/1024px-Google_Play_2022_logo.svg.png" />
+                <img className="w-25" alt="" src="https://www.cotacao.com.br/wp-content/uploads/2018/02/app-store-logo.png" />
+                </div>
+            </div>
+
             <Newsletter />
 
             <Footer />

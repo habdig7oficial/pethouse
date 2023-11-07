@@ -18,7 +18,7 @@ export default function Entrar() {
                     <input className="text-center my-1" name="senha" id="senha" type="password" placeholder="Insira sua senha"></input>
                     
 
-                    <input value="Entrar" type="submit" className="btn btn-primary my-3" />
+                    <input value="Entrar" type="submit" className="btn btn-primary my-3 rounded" />
                     <a className="text-center my-3" href="/cadastro">Ainda não tem conta ?</a>
                 </form>
             </main>

@@ -15,7 +15,7 @@ export default function Card({ title = '', text = '', img_link = '', alt = '' }:
                 <img style={{maxWidth: "10rem"}} src={ img_link } className="card-img-top mx-auto" alt={alt} />
 
                 <div className="card-body d-flex flex-column justify-content-center flex-wrap">
-                    <p className="card-text text-wrap">{text}</p>
+                    <p className="card-text text-wrap text-justify">{text}</p>
 
                     <input value="Vizualize o Produto Agora" type="button" className="btn btn-secondary text-wrap" />
                 </div>
