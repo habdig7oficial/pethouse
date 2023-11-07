@@ -23,6 +23,8 @@ export default function Entrar() {
                 </form>
             </main>
 
+            <div style={{paddingTop: "26.5rem"}} ></div>
+
             <Footer />
         </>
     )

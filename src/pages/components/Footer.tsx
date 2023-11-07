@@ -9,7 +9,7 @@ let img_width = "2.5rem"
 export default function Footer() {
     return (
         <>
-            <footer className="d-flex flex-wrap justify-content-between align-items-center py-2 my-4 px-1 border-top text-bg-secondary ">
+            <footer className="d-flex flex-wrap justify-content-between align-items-center py-2 mt-4 px-1 border-top text-bg-secondary ">
                 <div className="col-md-4 d-flex align-items-center">
                     <a href="/" className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                         <Logo />
