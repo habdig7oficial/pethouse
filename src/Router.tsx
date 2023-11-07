@@ -2,6 +2,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./pages/Home";
 import Err404 from "./pages/Error404";
 
+import Entrar from "./pages/usuario";
+
 
 export default function App(){
   return (
@@ -9,6 +11,7 @@ export default function App(){
       <BrowserRouter>
         <Routes>
           <Route index element={<Home />} />
+          <Route path="/entrar" element={<Entrar />} />
           <Route path="*" element={<Err404 />} />
         </Routes>
       </BrowserRouter>
