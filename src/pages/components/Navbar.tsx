@@ -6,10 +6,10 @@ export default function Navbar() {
         <>
             <div className="bg-secondary">
                 <div className="d-flex justify-content-center align-items-center text-bg-secondary my-0">
-                    <div className="d-flex justify-content-center align-items-center flex-column my-2">
+                    <a href="/" className="d-flex justify-content-center align-items-center flex-column my-2">
                         <img className="mx-auto" style={{ maxWidth: "3rem" }} src={petlogo} />
-                        <p className="text-center">PetHouse</p>
-                    </div>
+                        <p className="text-center text-decoration-none text-light ">PetHouse</p>
+                    </a>
                 </div>
 
                 <nav className="navbar navbar-expand-lg bg-body-tertiary mb-2 text-bg-secondary my-0 p-0">
@@ -32,7 +32,7 @@ export default function Navbar() {
                                     </ul>
                                 </li>
                                 <li className="nav-item">
-                                    <a className="nav-link active text-bg-secondary" aria-current="page" href="/">Cadastrar Produtos</a>
+                                    <a className="nav-link active text-bg-secondary" aria-current="page" href="/produtos">Cadastrar Produtos</a>
                                 </li>
                             </ul>
                         </div>

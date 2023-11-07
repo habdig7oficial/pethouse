@@ -9,6 +9,9 @@ export default function Home(){
 
             <Caroulsel  />
 
+
+            <h1 className="text-center"></h1>
+
             <Footer />
         </>
     )
