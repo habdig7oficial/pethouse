@@ -3,6 +3,8 @@ import Caroulsel from "./components/Caroulsel";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 
+import "../assets/CSS/style.scss"
+
 export default function Home() {
     return (
         <>
@@ -20,7 +22,7 @@ export default function Home() {
             </div>
 
             <div className="d-flex justify-content-center">
-             <button className="btn btn-secondary text-center">Conheça Agora</button>
+             <button className="btn btn-primary text-center">Conheça Agora</button>
             </div>
 
             <Footer />

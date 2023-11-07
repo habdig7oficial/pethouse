@@ -16,6 +16,8 @@ export default function Card({ title = '', text = '', img_link = '', alt = '' }:
 
                 <div className="card-body">
                     <p className="card-text">{text}</p>
+
+                    <input value="Vizualize o Produto Agora" type="button" className="btn btn-secondary" />
                 </div>
             </div>
         </>

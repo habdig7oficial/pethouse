@@ -8,7 +8,7 @@ export default function Navbar() {
                 <div className="d-flex justify-content-center align-items-center text-bg-secondary my-0">
                     <a href="/" className="d-flex justify-content-center align-items-center flex-column my-2">
                         <img className="mx-auto" style={{ maxWidth: "3rem" }} src={petlogo} />
-                        <p className="text-center text-decoration-none text-light ">PetHouse</p>
+                        <p style={{textDecoration: "none"}} className="text-center text-decoration-none text-light">PetHouse</p>
                     </a>
                 </div>
 
